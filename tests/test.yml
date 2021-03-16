@@ -1,0 +1,7 @@
+# test file for acwagent
+---
+- hosts: localhost
+  connection: local
+  become: true
+  roles:
+    - ../../
